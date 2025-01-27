@@ -76,6 +76,16 @@ Git is a distributed version control system.
 Git is free software distributed under the GPL.
 Git has a mutable index called stage.
 
+所以，git add命令实际上就是把要提交的所有修改放到暂存区（Stage），然后，执行git commit就可以一次性把暂存区的所有修改提交到分支。
+git commit -m "understand how stage works"
+
+一旦提交后，如果你又没有对工作区做任何修改，那么工作区就是“干净”的：
+git status
+On branch master
+nothing to commit, working tree clean
+
+
+
 
 
 
