@@ -85,6 +85,7 @@ On branch master
 nothing to commit, working tree clean
 
 管理修改
+Git tracks changes.
 
 
 
