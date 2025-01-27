@@ -31,3 +31,9 @@ git status
 
 git commit -m "add distributed"
 
+
+第三次测试
+Git is a distributed version control system.
+Git is free software distributed under the GPL.
+
+
