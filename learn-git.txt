@@ -8,3 +8,26 @@ git config --global user.email "jiyingguo@gmail.com"
 mkdir learngit
 
 第二步，通过git init命令把这个目录变成Git可以管理的仓库：
+git init
+
+把文件添加到版本库
+
+Git is a version control system.
+Git is free software.
+
+第一步，用命令git add告诉Git，把文件添加到仓库：
+git add learn-git.txt
+
+第二步，用命令git commit告诉Git，把文件提交到仓库：
+git commit -m "add learngit file to repository"
+
+
+Git is a distributed version control system.
+Git is free software.
+
+现在，运行git status命令看看结果：
+git status
+
+
+git commit -m "add distributed"
+
